@@ -1,0 +1,17 @@
+:root {
+  --toastify-color-success: #c48b21;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button-main {
+    @apply border-white bg-main shadow rounded hover:bg-main/75 hover:text-white transition-all duration-500 px-2 py-1  border-solid border-[1px] text-gray-200 font-bold;
+  }
+
+  .button-delete {
+    @apply border-red-500 shadow hover:bg-slate-500/5 hover:text-red-500 transition-all duration-500 px-2 py-1 rounded border-solid border-2 text-red-950 font-bold;
+  }
+}
